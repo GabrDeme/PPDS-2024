@@ -1,20 +1,20 @@
-# Curso de Programação em Python para Data Science
+# Python Programming for Data Science Course
 
-Bem-vindo ao repositório do **Curso de Programação em Python para Data Science**! 
+Welcome to the repository for the **Python Programming for Data Science Course**!
 
-Este curso de Python para Data Science contempla uma introdução ao uso de Python na análise e manipulação de dados. Envolvendo extrair insights de dados por meio de técnicas estatísticas, visualização e machine learning, e Python é uma das linguagens mais populares para esse fim.
+This Python course for Data Science provides an introduction to using Python for data analysis and manipulation. It involves extracting insights from data through statistical techniques, visualization, and machine learning, with Python being one of the most popular languages for this purpose.
 
-## Conteúdo do Curso
+## Course Content
 
-### 1. Introdução ao Python
-- **Conceitos Básicos**: Sintaxe, variáveis e tipos de dados.
-- **Estruturas de Decisão e Loops**: Condicionais (`if`, `else`, `elif`) e loops (`for`, `while`) para controle de fluxo.
-- **Coleções**: Listas, tuplas, dicionários e conjuntos para armazenar e manipular dados.
-- **Funções**: Criação de funções para modular o código, incluindo parâmetros e retornos.
-- **Manipulação de Arquivos**: Leitura e escrita de arquivos de texto e CSV.
+### 1. Introduction to Python
+- **Basic Concepts**: Syntax, variables, and data types.
+- **Decision Structures and Loops**: Conditionals (`if`, `else`, `elif`) and loops (`for`, `while`) for flow control.
+- **Collections**: Lists, tuples, dictionaries, and sets for storing and manipulating data.
+- **Functions**: Creating functions to modularize code, including parameters and return values.
+- **File Manipulation**: Reading and writing text and CSV files.
 
-### 2. Python para Data Science
-- **Numpy**: Biblioteca para cálculos numéricos e manipulação de arrays multidimensionais.
-- **Pandas**: Ferramenta essencial para manipulação de dados tabulares, incluindo leitura de arquivos, limpeza e transformação de dados utilizando dataframes.
-- **Datetime**: Módulo para trabalhar com datas e horários, fundamental para séries temporais e análise temporal.
-- **Matplotlib e Seaborn**: Bibliotecas de visualização de dados que permitem a criação de gráficos e visualizações intuitivas para facilitar a análise e interpretação dos dados.
+### 2. Python for Data Science
+- **Numpy**: Library for numerical calculations and manipulation of multidimensional arrays.
+- **Pandas**: Essential tool for manipulating tabular data, including reading files, cleaning, and transforming data using dataframes.
+- **Datetime**: Module for working with dates and times, essential for time series and temporal analysis.
+- **Matplotlib and Seaborn**: Data visualization libraries that allow the creation of intuitive graphs and visualizations to facilitate data analysis and interpretation.

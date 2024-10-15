@@ -13,8 +13,6 @@ Este curso de Python para Data Science contempla uma introdução ao uso de Pyth
 - **Funções**: Criação de funções para modular o código, incluindo parâmetros e retornos.
 - **Manipulação de Arquivos**: Leitura e escrita de arquivos de texto e CSV.
 
----
-
 ### 2. Python para Data Science
 - **Numpy**: Biblioteca para cálculos numéricos e manipulação de arrays multidimensionais.
 - **Pandas**: Ferramenta essencial para manipulação de dados tabulares, incluindo leitura de arquivos, limpeza e transformação de dados utilizando dataframes.

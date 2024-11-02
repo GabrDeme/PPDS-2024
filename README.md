@@ -37,7 +37,7 @@ Linear regression is a statistical technique used to model the relationship betw
   1
   x+ϵ**
 
-where \(y\) is the predicted value, \(\beta_0\) is the intercept, \(\beta_1\) is the slope of the line, and \(\epsilon\) represents the error term. Linear regression can be implemented using **Scikit-Learn**, which provides tools to fit, interpret, and validate the model. This approach is commonly used for predicting continuous values and establishing correlations between variables.
+where **y** is the predicted value, **β0** is the intercept, **β1** is the slope of the line, and **ϵ** represents the error term. Linear regression can be implemented using **Scikit-Learn**, which provides tools to fit, interpret, and validate the model. This approach is commonly used for predicting continuous values and establishing correlations between variables.
 
 #### Example
 <img alt="First example of Linear Regression" src="/Assets/Linear_Regression.png">

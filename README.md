@@ -70,12 +70,12 @@ Clustering is an unsupervised learning technique that aims to group similar data
 
 <img alt="Ice Cream Sales Based on Temperature" src="/Assets/Ice_Cream_Sales.png">
 
-- **Country Clustering**: <br/>
+- **Country Clustering**:
   This scatter plot showcases the clustering of countries based on **Latitude** and **Longitude** using **KMeans** from **Scikit-Learn**. Different colors represent clusters, grouping countries geographically. **Pandas** was used for data handling, and **Matplotlib** and **Seaborn** were used for visualization and styling.
 
 <img alt="Country Clusterization" src="/Assets/Countries_Clusterization.png">
 
-- **Dollar Exchange Rate Over Time**: <br/>
+- **Dollar Exchange Rate Over Time**:
   This line chart illustrates the R$/USD exchange rate in January each year from 2000 to 2024, showing the trend in currency valuation. **Pandas** was used for data organization, while **Matplotlib** and **Seaborn** were used for creating and styling the dashed line plot, capturing fluctuations over time.
 
 <img alt="Dollar Exchange Rate Over Time" src="/Assets/Dolar_Graphic.png">

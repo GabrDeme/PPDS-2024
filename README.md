@@ -78,4 +78,10 @@ Clustering is an unsupervised learning technique that aims to group similar data
 - **Dollar Exchange Rate Over Time**:
   This line chart illustrates the R$/USD exchange rate in January each year from 2000 to 2024, showing the trend in currency valuation. **Pandas** was used for data organization, while **Matplotlib** and **Seaborn** were used for creating and styling the dashed line plot, capturing fluctuations over time.
 
-<img alt="Dollar Exchange Rate Over Time" src="/Assets/Dolar_Graphic.png">
+<img alt="Dollar Exchange Rate Over Time" height="380px" width="480px" src="/Assets/Dolar_Graphic.png">
+
+### Data Sources for Practice
+Practice with real-world data from these sources:
+- [Kaggle Datasets](https://www.kaggle.com/datasets)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
+- [Data.gov](https://www.data.gov/)

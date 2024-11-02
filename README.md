@@ -39,6 +39,9 @@ Linear regression is a statistical technique used to model the relationship betw
 
 where \(y\) is the predicted value, \(\beta_0\) is the intercept, \(\beta_1\) is the slope of the line, and \(\epsilon\) represents the error term. Linear regression can be implemented using **Scikit-Learn**, which provides tools to fit, interpret, and validate the model. This approach is commonly used for predicting continuous values and establishing correlations between variables.
 
+#### Example
+<img alt="First example of Linear Regression" src="/Assets/Linear_Regression.png">
+
 #### Clustering
 
 Clustering is an unsupervised learning technique that aims to group similar data points based on features or behaviors. It is commonly used for pattern recognition, segmentation, and anomaly detection. **Scikit-Learn** provides algorithms like **K-means**, which works by dividing data points into clusters by minimizing the variance within each cluster. Clustering techniques help identify patterns within unstructured data and are valuable in exploratory data analysis.
@@ -61,3 +64,10 @@ Clustering is an unsupervised learning technique that aims to group similar data
   **Pandas**, **Seaborn**, and **Matplotlib** generate a bar chart displaying the top car brands sold in 2010. The chart, customized with labels and limits, illustrates how **Pandas** and **Seaborn** simplify data filtration and visualization.
 
 <img alt="Cars Filtering" src="/Assets/Car_Brands.png">
+
+- **Ice Cream Sales Based on Temperature**: 
+  This plot shows the correlation between temperature (°C) and ice cream sales (in millions). Using **Pandas** for data handling, **NumPy** for temperature conversion, **Seaborn** for styling, and **Scikit-Learn's** Linear Regression, the scatter points represent actual sales, while the purple line indicates the trend. Higher temperatures correlate with increased sales.
+
+
+
+<img alt="Ice Cream Sales Based on Temperature" src="/Assets/Ice_Cream_Sales.png">

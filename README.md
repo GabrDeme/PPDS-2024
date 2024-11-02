@@ -2,7 +2,7 @@
 
 Welcome to the repository for the **Python Programming for Data Science Course**!
 
-This Python course for Data Science provides an introduction to using Python for data analysis and manipulation. It involves extracting insights from data through statistical techniques, visualization, and machine learning, with Python being one of the most popular languages for this purpose.
+This course introduces Python programming tailored for data analysis, exploration, and predictive modeling, covering statistical techniques, data visualization, and machine learning methods. Python is used to extract insights from data, making it one of the most popular languages in Data Science.
 
 ## Course Content
 
@@ -17,23 +17,47 @@ This Python course for Data Science provides an introduction to using Python for
 - **Numpy**: Library for numerical calculations and manipulation of multidimensional arrays.
 - **Pandas**: Essential tool for manipulating tabular data, including reading files, cleaning, and transforming data using dataframes.
 - **Datetime**: Module for working with dates and times, essential for time series and temporal analysis.
-- **Matplotlib and Seaborn**: Data visualization libraries that allow the creation of intuitive graphs and visualizations to facilitate data analysis and interpretation.
+- **Matplotlib and Seaborn**: Data visualization libraries for creating graphs and visualizations to aid data interpretation.
+- **Scikit-Learn**: A machine learning library that provides simple and efficient tools for data mining and data analysis, widely used for implementing regression, classification, clustering, and more.
+- **Statsmodels**: Used for statistical modeling and analysis, providing classes and functions for estimating and testing different models.
+- **Beautiful Soup**: A Python library for web scraping that extracts data from HTML and XML files, allowing users to parse and navigate HTML structures to retrieve specific data. 
 
 ---
 
-## The use of Librarys in our Projects
-- **Programmimg Languages**: <br/>
-  The code uses the **Matplotlib** library to create a bar chart that shows votes for different programming languages. It starts by creating a figure and axes with plt.subplots(), where the actual chart is drawn. The ax.bar() function plots bars for each language, using custom colors from the cores list. The chart is customized with a title, axis labels, and a y-axis limit from 0 to 500 using ax.set_title(), ax.set_xlabel(), ax.set_ylabel(), and ax.set_ylim(). The ax.bar_label() function adds the exact number of votes on top of each bar for clarity. Finally, plt.show() displays the chart.
+### Key Data Science Techniques
+
+#### Linear Regression
+
+Linear regression is a statistical technique used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation. The model is represented by the formula:
+
+  **y=β 
+  0
+​
+   +β 
+  1
+  x+ϵ**
+
+where \(y\) is the predicted value, \(\beta_0\) is the intercept, \(\beta_1\) is the slope of the line, and \(\epsilon\) represents the error term. Linear regression can be implemented using **Scikit-Learn**, which provides tools to fit, interpret, and validate the model. This approach is commonly used for predicting continuous values and establishing correlations between variables.
+
+#### Clustering
+
+Clustering is an unsupervised learning technique that aims to group similar data points based on features or behaviors. It is commonly used for pattern recognition, segmentation, and anomaly detection. **Scikit-Learn** provides algorithms like **K-means**, which works by dividing data points into clusters by minimizing the variance within each cluster. Clustering techniques help identify patterns within unstructured data and are valuable in exploratory data analysis.
+
+---
+
+## Library Use in Projects
+
+- **Programming Languages**:
+  The code uses **Matplotlib** to create a bar chart displaying votes for different programming languages. It customizes the chart with titles, labels, and limits, and **plt.show()** displays the chart.
 
 <img alt="Our First Graphic - Programming Languages" src="/Assets/First_Graphic.png">
 
-- **Students Medias**: <br/>
-  The bar chart displays the final grades of students, with names on the x-axis and their average grades on the y-axis. The chart is generated using Python libraries like **Pandas** for data handling, **NumPy** for grade calculation, and **Matplotlib** and **Seaborn** for visualization. Each student's average grade is calculated from four test scores, and bars are colored based on whether the student passed (green) or failed (red). The chart includes labels for the exact averages on top of each bar, with a title and axis labels for clarity. The y-axis is limited from 0 to 12, highlighting one failing student, Benjamin Hall, with an average of 3.75.
+- **Student Averages**:
+  A bar chart that shows students' average grades, calculated using **Pandas** and **NumPy**. The chart visually indicates passing and failing grades using color coding, enhancing understanding of student performance.
 
 <img alt="Students Media" src="/Assets/Students_Media.png">
 
-
-- **Cars Filtration**: <br/>
-  The code uses Pandas, Seaborn, and Matplotlib to generate a bar chart showing the Top 5 Car Brands Sold in 2010. After loading the car data from a CSV file and cleaning it by dropping missing values, it filters the dataset for cars from the year 2010. The top 5 most-sold brands are calculated using value_counts() and displayed in a bar chart with Seaborn's barplot(). The x-axis represents the car brands, and the y-axis shows the number of cars sold, with labels on top of each bar indicating the exact figures. The chart is customized with titles, axis labels, and a y-axis limit of 0 to 5000.
+- **Cars Filtering**:
+  **Pandas**, **Seaborn**, and **Matplotlib** generate a bar chart displaying the top car brands sold in 2010. The chart, customized with labels and limits, illustrates how **Pandas** and **Seaborn** simplify data filtration and visualization.
 
 <img alt="Cars Filtering" src="/Assets/Car_Brands.png">

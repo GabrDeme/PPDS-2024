@@ -68,6 +68,14 @@ Clustering is an unsupervised learning technique that aims to group similar data
 - **Ice Cream Sales Based on Temperature**: 
   This plot shows the correlation between temperature (°C) and ice cream sales (in millions). Using **Pandas** for data handling, **NumPy** for temperature conversion, **Seaborn** for styling, and **Scikit-Learn's** Linear Regression, the scatter points represent actual sales, while the purple line indicates the trend. Higher temperatures correlate with increased sales.
 
-
-
 <img alt="Ice Cream Sales Based on Temperature" src="/Assets/Ice_Cream_Sales.png">
+
+- **Country Clustering**: <br/>
+  This scatter plot showcases the clustering of countries based on **Latitude** and **Longitude** using **KMeans** from **Scikit-Learn**. Different colors represent clusters, grouping countries geographically. **Pandas** was used for data handling, and **Matplotlib** and **Seaborn** were used for visualization and styling.
+
+<img alt="Country Clusterization" src="/Assets/Countries_Clusterization.png">
+
+- **Dollar Exchange Rate Over Time**: <br/>
+  This line chart illustrates the R$/USD exchange rate in January each year from 2000 to 2024, showing the trend in currency valuation. **Pandas** was used for data organization, while **Matplotlib** and **Seaborn** were used for creating and styling the dashed line plot, capturing fluctuations over time.
+
+<img alt="Dollar Exchange Rate Over Time" src="/Assets/Dolar_Graphic.png">
